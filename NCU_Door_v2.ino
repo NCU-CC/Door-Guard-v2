@@ -91,7 +91,6 @@ void line( char* s ){
 }
 
 void triggerDoor(){
-  //line("T");
   digitalWrite(6, HIGH);
   delay(200);       
   digitalWrite(6, LOW);
